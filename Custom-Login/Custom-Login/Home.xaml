@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="Custom_Login.Home"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Custom_Login"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <RelativePanel Background="#2c3e50">
+        <TextBlock x:Name="TitleText" Text="Logged In" RelativePanel.AlignHorizontalCenterWithPanel="True"
+                   FontSize="54" Margin="10,10,10,30" Foreground="#c0392b"  />
+        <Button x:Name="LogoutButton" Content="Log Out" RelativePanel.AlignHorizontalCenterWithPanel="True"
+                Margin="20" RelativePanel.AlignVerticalCenterWithPanel="true"
+                FontSize="24" Click="LogoutButton_Click" RequestedTheme="Dark"/>
+    </RelativePanel>
+</Page>
